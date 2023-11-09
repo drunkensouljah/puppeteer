@@ -1,0 +1,377 @@
+repo_name: drunkensouljah/puppeteer
+report_id: 64fd848807cc980221e84f661d13ecbb
+repo_type: Public
+timestamp: '2023-11-09T18:37:36+00:00'
+requested_by: aslushnikov
+provider: github
+branch: master
+detected_tools_count: 26
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2017-05-11 07:06:41.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2018-12-06 19:24:00.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: test/assets/es6/.eslintrc
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2017-05-11 07:06:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Paul Irish
+  last_updated_on: 2017-06-21 00:04:24.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2017-05-11 07:06:41.000000000 Z
+- name: "@types/debug"
+  description: TypeScript definitions for debug
+  package_url: https://www.npmjs.com/@types/debug
+  version: 0.0.31
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Joel Einbinder
+  last_updated_on: 2019-01-28 23:12:45.000000000 Z
+- name: "@types/mime"
+  description: TypeScript definitions for mime
+  package_url: https://www.npmjs.com/@types/mime
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18274/default_7a7ed285fac4b842f0d8c3991804954d9db6b793.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Joel Einbinder
+  last_updated_on: 2019-01-28 23:12:45.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 8.10.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2019-02-02 01:04:19.000000000 Z
+- name: "@types/rimraf"
+  description: TypeScript definitions for rimraf
+  package_url: https://www.npmjs.com/@types/rimraf
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16613/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Joel Einbinder
+  last_updated_on: 2019-01-28 23:12:45.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Joel Einbinder
+  last_updated_on: 2019-01-28 23:12:45.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Eli Sherer
+  last_updated_on: 2017-10-11 19:14:13.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: experimental/puppeteer-firefox/package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2018-12-06 19:24:00.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.3.1
+- name: esprima
+  description: ECMAScript parsing infrastructure for multipurpose analysis
+  package_url: https://www.npmjs.com/esprima
+  version: 4.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16362/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2017-07-07 16:36:45.000000000 Z
+- name: extract-zip
+  description: Unzip a zip file into a directory using 100% javascript
+  package_url: https://www.npmjs.com/extract-zip
+  version: 1.6.6
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17488/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: experimental/puppeteer-firefox/package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2018-12-06 19:24:00.000000000 Z
+- name: https-proxy-agent
+  description: An HTTP
+  package_url: https://www.npmjs.com/https-proxy-agent
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17334/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: experimental/puppeteer-firefox/package.json
+  detection_source: package.json
+  last_updated_by: Paul Irish
+  last_updated_on: 2019-02-06 18:06:36.000000000 Z
+  vulnerabilities:
+  - name: Machine-In-The-Middle in https-proxy-agent
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-pc5p-h8pf-mvwp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.2.3
+- name: mime
+  description: A comprehensive library for mime-type mapping
+  package_url: https://www.npmjs.com/mime
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: experimental/puppeteer-firefox/package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2018-12-06 19:24:00.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2017-06-16 21:33:34.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 1.2.6
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2020-7598
+    cve_url: https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.2.3
+  - name: 'Withdrawn: ESLint dependencies are vulnerable (ReDoS and Prototype Pollution)'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7fhm-mqm4-2wp7
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.2.2
+- name: ncp
+  description: Asynchronous recursive file copy utility
+  package_url: https://www.npmjs.com/ncp
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16261/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2017-05-11 07:06:41.000000000 Z
+- name: pixelmatch
+  description: The smallest and fastest pixel-level image comparison library
+  package_url: https://www.npmjs.com/pixelmatch
+  version: 4.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18571/default_fb79d45b291e13c71fc773f6fb21d0111f62c104.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2017-06-16 22:02:14.000000000 Z
+- name: pngjs
+  description: PNG encoder/decoder in pure JS
+  package_url: https://www.npmjs.com/pngjs
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17513/default_10a98ebc0146ab94b0fde6f7013c1279c82e4135.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Yaniv Efraim
+  last_updated_on: 2018-04-19 21:16:02.000000000 Z
+- name: progress
+  description: Flexible ascii progress bar
+  package_url: https://www.npmjs.com/progress
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16410/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: experimental/puppeteer-firefox/package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2018-12-06 19:24:00.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.6.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: experimental/puppeteer-firefox/package.json
+  detection_source: package.json
+  last_updated_by: Andrey Lushnikov
+  last_updated_on: 2019-02-25 19:43:54.000000000 Z
